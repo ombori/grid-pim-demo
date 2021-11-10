@@ -126,8 +126,7 @@ function formatData(item: FeedData): GridProduct{
 async function pushProducts() {
     const pimClient = new GridProductServiceAdmin({
         accessKey: process.env.ACCESS_KEY,
-        tenantIndex: process.env.TENANT_INDEX,
-        gpsServiceEndpoint: "http://localhost:7071/api/tenants"
+        tenantIndex: process.env.TENANT_INDEX
     })
 
     const data: FeedData[] = await parseCsv('src/files/product-feed.csv');
