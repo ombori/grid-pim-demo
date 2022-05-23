@@ -1,7 +1,9 @@
-# Grid PIM Demo
-Demo on how to integrate with Grid PIM.
+# Grid Products Demo
+Demo on how to integrate with Grid Products using the Grid Products package
+- Grid Products package and sample provided is only available using Typescript/Javascript
 
-Documentation: https://developer.omborigrid.com/#/grid-pim/
+Package: https://www.npmjs.com/package/@ombori/grid-products
+API Documentation: https://developer.omborigrid.com/#/grid-products/
 
 ### Requirements:
 - NodeJS
@@ -16,22 +18,15 @@ OR `npm install` (if you use npm)
 
 
 ### Configuration
-- Create a .env file in the root directory of your codebase
-- Set the following values on the created .env file:
-```
-  ACCESS_KEY=<value> //tenantIndex value provided by Ombori
-  TENANT_INDEX=<value> //accessKey value provided by Ombori
-```
+- Update `src/config.ts` file with your grid products configruation specified in the code comments
 
-### Example:
-.env
-```
-  ACCESS_KEY=XXXX-XXXX-XXXX
-  TENANT_INDEX=demo-index
-```
-
-### Available Demo
-1. Push Products 
-- Basic usage with extracting and parsing data from a CSV file and push data to Grid PIM
-- This will push data to your Grid PIM with the data from "src/files/product-feed.csv"
+### Available Samples
+1. Push Product Types
+- Basic usage with extracting and parsing data from a excel file and push product types data to Grid Products
+- This will read, parse, and push data from "src/files/product-types.xlsx"
+- Run `yarn push-productTypes` to run the function
+2. Push Products 
+- Basic usage with extracting and parsing data from a excel file and push products data to Grid Products
+- This will read, parse, and push data from "src/files/product-feed.xlsx"
 - Run `yarn push-products` to run the function
+3. More samples will be added soon

@@ -1,4 +1,0 @@
-﻿parentId,id,name_en_US,name_se_SV,description_en_US,description_se_SV,universal_product_code,list_price,promo_price,image_url,image_url_1,product_type
-P_1001,1001,Name 1001 (en-US),Name 1001 (se-SV),Description 1001 (en-US),Description 1001 (se-SV),0999999999991,20,0,https://cdn.lorem.space/images/shoes/.cache/150x150/trendest-studio-XZ3EmAIWuz0-unsplash.jpg,https://cdn.lorem.space/images/shoes/.cache/150x150/irene-kredenets-dwKiHoqqxk8-unsplash.jpg,Test_Shoes
-P_1002,1002,Name 1001 (en-US),Name 1002 (se-SV),Description 1002 (en-US),Description 1002 (se-SV),0999999999992,50,40,https://cdn.lorem.space/images/watch/.cache/150x150/filip-baotic-FF8Kqb86V38-unsplash.jpg,https://cdn.lorem.space/images/watch/.cache/150x150/daniel-korpai-2FGPidtk00E-unsplash.jpg,Test_Watch
-P_1003,1003,Name 1003 (en-US),Name 1003 (se-SV),Description 1003 (en-US),Description 1003 (se-SV),0999999999993,10,0,https://cdn.lorem.space/images/movie/.cache/150x220/matrix-1999.jpg,,Test_Poster
