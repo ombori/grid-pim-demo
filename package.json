@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "push-productTypes": "yarn build && node dist/demo/product-types/push-product-types.js",
+    "push-products": "yarn build && node dist/demo/products/push-products.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +27,7 @@
   "dependencies": {
     "@ombori/grid-products": "^2.208.0",
     "dotenv": "^10.0.0",
+    "lodash": "^4.17.21",
     "node-xlsx": "^0.21.0"
   }
 }
